@@ -13,25 +13,25 @@ function __init__()
     JLLWrappers.@init_library_product(
         libnvinfer,
         "bin\\nvinfer.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libnvinfer_plugin,
         "bin\\nvinfer_plugin.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libnvonnxparser,
         "bin\\nvonnxparser.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libnvparsers,
         "bin\\nvparsers.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        nothing,
     )
 
     JLLWrappers.@init_executable_product(
