@@ -1,6 +1,6 @@
 name = "TensorRT_jll"
 uuid = "2eaff018-c6f9-5ddb-97b6-8b0d18888fbb"
-version = "8.0.1+0"
+version = "8.0.3+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
