@@ -21,7 +21,7 @@ function __init__()
 
     JLLWrappers.@init_library_product(
         libnvinfer_builder_resource,
-        "lib/libnvinfer_builder_resource.so.10.4.0",
+        "lib/libnvinfer_builder_resource.so.10.5.0",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
