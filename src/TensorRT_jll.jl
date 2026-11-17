@@ -7,5 +7,5 @@ Base.include(@__MODULE__, joinpath("..", ".pkg", "platform_augmentation.jl"))
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("TensorRT")
-JLLWrappers.@generate_main_file("TensorRT", UUID("2eaff018-c6f9-5ddb-97b6-8b0d18888fbb"))
+JLLWrappers.@generate_main_file("TensorRT", Base.UUID("2eaff018-c6f9-5ddb-97b6-8b0d18888fbb"))
 end  # module TensorRT_jll
