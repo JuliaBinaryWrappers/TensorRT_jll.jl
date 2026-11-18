@@ -6,8 +6,8 @@ lazy = true
 os = "windows"
 
     [[TensorRT.download]]
-    sha256 = "82c33eb1f232bddf9c9e67e96c3aaec290a606f731d7adce8fe8c16bf5c2c487"
-    url = "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-w64-mingw32-cuda+11.0.tar.gz"
+    sha256 = "666111252d5e4d92ae6bbee95a4826279b611d539b8955536ec188e7b5d02a0f"
+    url = "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-w64-mingw32-cuda+11.0.tar.xz"
 [[TensorRT]]
 arch = "x86_64"
 cuda = "11.0"
@@ -17,8 +17,8 @@ libc = "glibc"
 os = "linux"
 
     [[TensorRT.download]]
-    sha256 = "51bad832e7ef15951dcfa70ab76bbbf8cbcbe48f9bfa1a19d961b9c7e2eb8ee3"
-    url = "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-linux-gnu-cuda+11.0.tar.gz"
+    sha256 = "1a29214f0f83788fea082646f492d451de5efcf930d13a8aa606d4f908f12b6a"
+    url = "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-linux-gnu-cuda+11.0.tar.xz"
 [[TensorRT]]
 arch = "aarch64"
 cuda = "12.0"
@@ -29,8 +29,8 @@ libc = "glibc"
 os = "linux"
 
     [[TensorRT.download]]
-    sha256 = "8d639451705af6ccbac9f06d77199c16c3b03048ba8827639462aa8576950de1"
-    url = "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz"
+    sha256 = "35bb211ef60bea81dc25165b57798795c8d2bc3d92806597be439076a9cc1eec"
+    url = "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.xz"
 [[TensorRT]]
 arch = "x86_64"
 cuda = "12.0"
@@ -39,8 +39,8 @@ lazy = true
 os = "windows"
 
     [[TensorRT.download]]
-    sha256 = "f51b81aa9bc03edc0a182824eef5bc78892798287042aecf0a6a13ca85fe8d8f"
-    url = "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-w64-mingw32-cuda+12.0.tar.gz"
+    sha256 = "685c6518c5eb64a36e32b7246ec31b607ef6c0594e6557862cca0ffb1f2becf5"
+    url = "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-w64-mingw32-cuda+12.0.tar.xz"
 [[TensorRT]]
 arch = "aarch64"
 cuda = "12.0"
@@ -51,8 +51,8 @@ libc = "glibc"
 os = "linux"
 
     [[TensorRT.download]]
-    sha256 = "66b3df0837757f9c1a368e35172b4a4b7a3dbef28e0777e3fcfbea78cdd99b18"
-    url = "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.gz"
+    sha256 = "86e77c9e6f769ee1d9f2bc97a632b64b3ca87e910764f20c88c39080be6d2563"
+    url = "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.xz"
 [[TensorRT]]
 arch = "x86_64"
 cuda = "12.0"
@@ -62,5 +62,5 @@ libc = "glibc"
 os = "linux"
 
     [[TensorRT.download]]
-    sha256 = "f8e94f064364852bc1d1c9137cf3a14731a3e345ae370fd0021cb0f239b0ee17"
-    url = "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-linux-gnu-cuda+12.0.tar.gz"
+    sha256 = "491ea93e8276e808e40a0a046cbc231dff649df44c1a74cc2a1fbf9e3f56f033"
+    url = "https://github.com/JuliaBinaryWrappers/TensorRT_jll.jl/releases/download/TensorRT-v10.13.0+0/TensorRT.v10.13.0.x86_64-linux-gnu-cuda+12.0.tar.xz"
